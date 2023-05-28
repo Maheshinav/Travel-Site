@@ -10,6 +10,7 @@
 .hero__background-hawaii {
   background-image: url(../assets/Images/hawaii.jpg);
 }
+
 .hero__background-iceland {
   background-image: url(../assets/Images/iceland.jpg);
 }
@@ -48,6 +49,7 @@
   margin-right: 10px;
   padding-top: 10px;
 }
+
 .card__list {
   list-style-type: none;
   text-align: center;
@@ -65,4 +67,6 @@
 .card__container {
   display: flex;
   justify-content: space-around;
+  padding-left: 165px;
+  padding-right: 165px;
 }
