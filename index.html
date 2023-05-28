@@ -1,122 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./css/main.css" />
-    <link rel="stylesheet" type="text/css" href="./css/global.css" />
-    <title>Travel Site</title>
-  </head>
-  <body>
-    <header>
-      <nav class="nav">
-        <div>
-          <a class="nav__logo-link" href="/index.html">
-            <h3 class="nav__logo">Travel Site</h3></a
-          >
-        </div>
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a class="nav__link nav__link--active" href="#">Home</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="./pages/hawaii.html">Hawaii</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="./pages/iceland.html">Iceland</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="./pages/greece.html">Greece</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section class="hero">
-        <div class="hero__content">
-          <h1 class="hero__title">Travelling Comes With Endless Discoveries</h1>
-          <p class="hero__subtitle">
-            Don't let your dreams be just dreams. Experience the world by
-            booking a vacation with us now.
-          </p>
-          <button class="button" type="button">Get started</button>
-        </div>
-        <figure>
-          <img class="hero__image" src="./assets/Images/hero.png" />
-        </figure>
-      </section>
-      <section class="recomandation">
-        <h2 class="card__heading">Recommendations</h2>
-        <div class="card__align">
-          <a
-            class="card card__img-hawaii"
-            href="../assets/Images/hawaii.jpg"
-          >
-            <h3 class="card__text">Hawaii</h3>
-          </a>
 
-          <a
-          class="card card__img-iceland"
-          href="../assets/Images/iceland.jpg"
-        >
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="./css/main.css" />
+  <link rel="stylesheet" type="text/css" href="./css/global.css" />
+  <title>Travel Site</title>
+</head>
+
+<body>
+  <header>
+    <nav class="nav">
+      <div>
+        <a class="nav__logo-link" href="/index.html">
+          <h3 class="nav__logo">Travel Site</h3>
+        </a>
+      </div>
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a class="nav__link nav__link--active" href="#">Home</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="./pages/hawaii.html">Hawaii</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="./pages/iceland.html">Iceland</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="./pages/greece.html">Greece</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero__content">
+        <h1 class="hero__title">Travelling Comes With Endless Discoveries</h1>
+        <p class="hero__subtitle">
+          Don't let your dreams be just dreams. Experience the world by
+          booking a vacation with us now.
+        </p>
+        <button class="button" type="button">Get started</button>
+      </div>
+      <figure>
+        <img class="hero__image" src="./assets/Images/hero.png" />
+      </figure>
+    </section>
+    <section class="recomandation">
+      <h2 class="card__heading">Recommendations</h2>
+      <div class="card__align">
+        <a class="card card__img-hawaii" href="./pages/hawaii.html">
+          <h3 class="card__text">Hawaii</h3>
+        </a>
+
+        <a class="card card__img-iceland" href="./pages/iceland.html">
           <h3 class="card__text">Iceland</h3>
         </a>
 
-          <a
-            class="card card__img-greece"
-            href="./pages/greece.html"
-          >
-            <h3 class="card__text">Greece</h3>
-          </a>
+        <a class="card card__img-greece" href="./pages/greece.html">
+          <h3 class="card__text">Greece</h3>
+        </a>
+      </div>
+    </section>
+    <footer>
+      <section class="footer__contact">
+        <h2 class="footer__title">Contact</h2>
+        <div>
+          <p class="footer__sub-title">EMAIL</p>
+          <p class="footer__text">info@travelsite.com</p>
         </div>
       </section>
-      <footer>
-        <section class="footer__sec1">
-          <h2 class="footer__header">Contact</h2>
-          <div>
-            <p class="footer__sub-topic">Email</p>
-            <p class="footer__text">info@travelsite.com</p>
-          </div>
-        </section>
-        <section>
-          <h2 class="footer__header">Hours</h2>
-          <ul class="footer__hour-align">
-            <li class="footer__hour-li">
-              <p class="footer__sub-topic">MONDAY - FRIDAY</p>
-              <p class="footer__text">9.00 a.m - 5.00 p.m</p>
-            </li>
-            <li class="footer__hour-li">
-              <p class="footer__sub-topic">SATURDAY</p>
-              <p class="footer__text">10.00 a.m - 4.00 p.m</p>
-            </li>
-            <li class="footer__hour-li">
-              <p class="footer__sub-topic">SUNDAY</p>
-              <p class="footer__text">Closed</p>
-            </li>
-          </ul>
-        </section>
-        <section>
-          <h2 class="footer__header">Social</h2>
-          <div>
-            <img
-              class="footer__icon"
-              src="../assets/Icons/icon-instagram.png"
-              alt="Instagram"
-            />
-            <img
-              class="footer__icon"
-              src="../assets/Icons/icon-facebook.png"
-              alt="Facebook"
-            />
-            <img
-              class="footer__icon"
-              src="../assets/Icons/icon-twitter.png"
-              alt="Twitter"
-            />
-          </div>
-        </section>
-      </footer>
-    </main>
-  </body>
+      <section>
+        <h2 class="footer__title">Hours</h2>
+        <ul class="footer__hour-align">
+          <li class="footer__hour-li">
+            <p class="footer__sub-title">MONDAY - FRIDAY</p>
+            <p class="footer__text">9.00 a.m - 5.00 p.m</p>
+          </li>
+          <li class="footer__hour-li">
+            <p class="footer__sub-title">SATURDAY</p>
+            <p class="footer__text">10.00 a.m - 4.00 p.m</p>
+          </li>
+          <li class="footer__hour-li">
+            <p class="footer__sub-title">SUNDAY</p>
+            <p class="footer__text">Closed</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2 class="footer__title">Social</h2>
+        <div>
+          <img class="footer__icon" src="../assets/Icons/icon-instagram.png" alt="Instagram" />
+          <img class="footer__icon" src="../assets/Icons/icon-facebook.png" alt="Facebook" />
+          <img class="footer__icon" src="../assets/Icons/icon-twitter.png" alt="Twitter" />
+        </div>
+      </section>
+    </footer>
+  </main>
+</body>
+
 </html>

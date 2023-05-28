@@ -21,13 +21,13 @@
 .hero__title {
   font-size: 3rem;
   text-align: left;
-  color: #ffff;
+  color: #ffffff;
   padding-left: 70px;
   margin-top: 0;
   padding-top: 40px;
 }
 
-.itinerary-card {
+.card {
   background-size: cover;
   background-position: center;
   width: 250px;
