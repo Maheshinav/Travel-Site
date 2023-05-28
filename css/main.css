@@ -24,7 +24,7 @@
   font-size: 2rem;
 }
 
-.hero__sub {
+.hero__subtitle {
   color: #335576;
   font-size: 0.8rem;
 }
@@ -41,10 +41,10 @@
 .recomandation {
   padding: 70px;
 }
-.recomandation__text {
+.card__heading {
   color: #335576;
 }
-.recomandation__card {
+.card {
   background-size: cover;
   background-position: center;
   width: 250px;
@@ -54,23 +54,23 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
   text-decoration: none;
 }
-.recomandation__card__align {
+.card__align {
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 5px 115px;
 }
 
-.recomandation__card__img1 {
+.card__img-hawaii{
   background-image: url(../assets/Images/hawaii.jpg);
 }
-.recomandation__card__img2 {
+.card__img-iceland {
   background-image: url(../assets/Images/iceland.jpg);
 }
-.recomandation__card__img3 {
+.card__img-greece {
   background-image: url(../assets/Images/greece.jpg);
 }
-.recomandation__card__text {
+.card__text {
   text-align: right;
   color: white;
   padding-top: 315px;

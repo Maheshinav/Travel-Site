@@ -3,32 +3,25 @@ body {
   margin: 0%;
 }
 
-.header {
+
+
+.nav__logo {
+  color: #335576;
+  margin: 0;
+  text-align: left;
+}
+
+.nav__logo-link {
+  text-decoration: none;
+}
+.nav {
+  text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-left: 70px;
   padding-right: 70px;
   background-color: #ffffff;
-}
-
-.header__logo {
-  color: #335576;
-  margin: 0;
-  text-align: left;
-}
-
-.header__logo-link {
-  text-decoration: none;
-}
-
-.header__logo-container {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.nav {
-  text-decoration: none;
 }
 
 .nav__item {
@@ -45,7 +38,7 @@ body {
   text-decoration: none;
 }
 
-.nav__link.active {
+.nav__link--active {
   text-decoration: underline;
   text-decoration-color: #db7a4e;
 }
