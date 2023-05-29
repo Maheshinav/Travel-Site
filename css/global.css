@@ -35,16 +35,17 @@ body {
 .nav__link {
   color: black;
   text-decoration: none;
+ 
 }
 
 .nav__link--active {
-  text-decoration: underline;
-  text-decoration-color: #db7a4e;
+  border-bottom: 6px solid #db7a4e;
 }
 
+
 .nav__link:hover {
-  text-decoration: underline;
-  text-decoration-color: #db7a4e;
+  border-bottom: 6px solid #db7a4e;
+  
 }
 
 footer {
